@@ -1,0 +1,342 @@
+/* Put your custom css here */
+/* HTML tags */
+body{
+  color: #212121;
+  font-family: 'Titillium Web',sans-serif;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+h1{
+  font-size: 34px;
+}
+
+h1::after{
+  content: '';
+  width: 20%;
+  position: absolute;
+  left: 15px;
+  top: 41px;
+  border-color: #ea761e;
+  border-width: 0 0 .09em;
+  border-style: solid;
+}
+
+h2::after{
+  content: none;
+}
+
+/* Navigation */
+
+.navbar-brand{
+  padding: 0;
+}
+.main-logo{
+  width: 140px;
+}
+
+.firstLevel{
+  width: 100%;
+}
+
+.menu-icon{
+  display: inline!important;
+}
+
+.navbar-default .navbar-toggle{
+  background: #ea761e;
+  margin-top: 2.2em;
+  margin-right: 1.6em;
+  padding: 0.9em;
+  border: #ba5d17 2px solid;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+  width: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  background-color: #ea761e;
+  color: #E6E7E7;
+}
+
+#mainHeader{
+  background: #E6E7E7;
+}
+
+#paralaxSlice1 {
+  background: url('../img/blockwall_1000.jpg') no-repeat center center fixed;
+  background-position: 0% 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+}
+
+.navbar-nav > li > a{
+  font-size: 1.2em;
+  height: auto;
+  display: inline-block;
+}
+
+.navbar-nav > li > a > i{
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0 10px;
+  color: #ba5d17;
+  margin-right: 0.9em;
+}
+
+.navbar-nav > li > a:hover > i{
+  color: #fff;
+}
+
+.navbar-nav > li > a::selection > i{
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a.active > i{
+  color: #FFF;
+}
+
+#mainMenu .navbar-nav i{
+  float: none;
+}
+
+.navbar-brand{
+  height: auto;
+}
+
+/* Main Content */
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.largeQuote{
+  margin-bottom: 1.2em;
+}
+
+.content-section{
+  margin-top: 3.2em;
+  margin-bottom: 3.2em;
+}
+
+.contact-logo{
+  width: 280px;
+}
+
+.caption{
+  margin-top: 4.5em;
+}
+
+.caption-heading{
+  font-weight: 800;
+  font-size: 1.8em;
+  color: #FF9647!important;
+  text-shadow: 1px black;
+  text-shadow: 2px 2px 0 #000,-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000;
+  height: 100px;
+}
+
+.caption-heading::after{
+  content: none;
+}
+
+.paralaxText h2{
+  line-height: 0.5em;
+  font-weight: 800;
+  font-size: 1.1em;
+  color: #FFF!important;
+  text-shadow: 1px black;
+  text-shadow: 1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}
+
+.caption-subheading{
+  margin-bottom: 0.2em;
+}
+
+.contact-btn{
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 1em;
+  border-radius: 0;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+  background-color: #ea761e;
+  text-decoration: none;
+}
+
+h2.subTitle{
+  color: #212121;
+  margin-bottom: 1em;
+  font-size: 1.4em;
+}
+
+.contact-box{
+  margin-top: 1.2em;
+}
+
+.gallery-section{
+  margin-top: 2.5em;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+  border: 1px solid #000;
+  color: #000;
+}
+
+.pb40{
+  padding-bottom: 0;
+}
+
+.contact-container{
+  padding-left: 0;
+  padding-right: 0; 
+}
+
+.contact-form{
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.message-btn{
+  font-size: 1.1em;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.9em;
+}
+
+.footer-container{
+  text-align: center;
+}
+
+.footer-logo{
+  width: 180px;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media(max-width:767px){}
+
+@media(min-width:768px){
+  body{
+    padding-top: 130px;
+  }
+  
+  .nav-container{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .navbar-nav.pull-right{
+    float: right!important;
+    height: 150px;
+  }
+
+  .navbar-nav > li > a{
+    height: 100%;
+    font-size: 1.1em;
+  }
+
+  .navbar-default .navbar-nav > li > a.active{
+    border: none;
+  }
+  
+  .navbar-header{
+    float: left;
+  }
+
+  #mainMenu .navbar-nav i{
+    float: right;
+  }
+
+
+  .primary{
+    height: 100%;
+  }
+
+  .firstLevel{
+    height: 100%;
+  }
+
+  .menu-icon{
+    width: 100%;
+    float: right;
+  }
+
+  .navbar-nav > li > a > i{
+    margin-right: 0;
+    font-size: 1.2em;
+    float: right!important;
+  }
+
+  .link-title{
+    display: block;
+  }
+
+  .contact-details{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+  }
+
+  .pb40{
+    padding-bottom: 4em;
+  }
+}
+
+@media(min-width:992px){
+  .nav-container{
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .caption{
+    margin-top: 0;
+  }
+
+  .paralaxText{
+    padding-top: 50px;
+  }
+
+  .caption-heading{
+    font-weight: 800;
+    font-size: 2.5em;
+    color: #FF9647!important;
+    text-shadow: 1px black;
+    text-shadow: 2px 2px 0 #000,-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000;
+    height: 100px;
+  }
+
+  .paralaxText h2{
+    font-size: 1.4em; 
+  }
+
+  .paralaxText h2 > i{
+    margin-right: 0.5em;
+  }
+
+  
+}
+
+@media(min-width:1200px){
+  .nav-container{
+    width: 1170px;
+  }
+
+  #paralaxSlice1{
+    height: 55vh;
+  }
+}
+
+/* Mobile */
+/* #mainMenu .navbar-nav i{
+  float: left;
+} */
