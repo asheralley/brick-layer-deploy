@@ -4,7 +4,7 @@ if ( !$_POST ) exit;
 if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
 
 
-$to = "shaylash@gmail.com"; //yourmail@yourdomain.com
+$to = "asher.asheralley@gmail.com"; //yourmail@yourdomain.com
 $subject = "Website contact form ";
 
 
