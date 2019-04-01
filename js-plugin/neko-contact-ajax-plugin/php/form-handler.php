@@ -3,8 +3,8 @@ if ( !isset( $_SESSION ) ) session_start();
 if ( !$_POST ) exit;
 if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
 
-
-$to = "asher.asheralley@gmail.com"; //yourmail@yourdomain.com
+// Email goes here!
+$to = ""; //yourmail@yourdomain.com
 $subject = "Website contact form ";
 
 
