@@ -21,7 +21,7 @@
 #NEKO CSS FRAMEWORK
 
 */
-/* COLORS :  cd691b / ea761e  / d88050 / eaeaea /
+/* COLORS :  cd691b / E95A26  / d88050 / eaeaea /
 /* BOOSTRAP CUSTOMIZATION
 ================================================== */
 
@@ -32,9 +32,9 @@
 	color:#555;
 }
 
-.panel-default>.panel-heading:hover, .nav>li>a:hover, .nav>li>a:focus{color:#ea761e; }
+.panel-default>.panel-heading:hover, .nav>li>a:hover, .nav>li>a:focus{color:#E95A26; }
 
-.panel-default>.panel-heading:hover a, .panel-default>.panel-heading:hover a:after, .nav>li>a:hover{color:#ea761e;  }
+.panel-default>.panel-heading:hover a, .panel-default>.panel-heading:hover a:after, .nav>li>a:hover{color:#E95A26;  }
 
 .panel-title>a {color:#333;}
 
@@ -54,26 +54,26 @@
 }
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
-	background: #ea761e ;
+	background: #E95A26 ;
 }
 
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{
-	background:#ea761e ;
-	border-color:#ea761e ;
+	background:#E95A26 ;
+	border-color:#E95A26 ;
 	color:#fff;
 }
 
 .pager li>a, .pager li>span {border-radius: 4px;}
 
 .pager li>a:hover, .pager li>a:focus {
-	background:#ea761e;
+	background:#E95A26;
 	color:#fff;
-	border-color:#ea761e;
+	border-color:#E95A26;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background:#ea761e;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background:#E95A26;}
 
-.progress-bar {background-color:#ea761e;}
+.progress-bar {background-color:#E95A26;}
 
 .progress-bar-success {background-color: #5BB75B;}
 
@@ -107,11 +107,11 @@ h2 i {color:#999}
 /*** parallax sections ***/
 .paralaxText blockquote {background:#cd691b;}
 
-.paralaxText blockquote:before, .paralaxText blockquote:after {color:#ea761e;}
+.paralaxText blockquote:before, .paralaxText blockquote:after {color:#E95A26;}
 
-#home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3 {background-color:#ea761e;}
+#home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3 {background-color:#E95A26;}
 
-.iosBg{background:url('../images/theme-pics/textures/orange.jpg') bottom center no-repeat #ea761e;}
+.iosBg{background:url('../images/theme-pics/textures/orange.jpg') bottom center no-repeat #E95A26;}
 
 /* #paralaxSlice1 {
   background: url('../img/brick-bg.jpg') no-repeat center center fixed;
@@ -136,13 +136,13 @@ h2 i {color:#999}
 /* LINKS AND BUTTONS
 ================================================== */
 
-a {color:#ea761e ;}
+a {color:#E95A26 ;}
 
-a:hover, .scrollspyNav .active a {color:#ea761e ;
+a:hover, .scrollspyNav .active a {color:#E95A26 ;
 }
 ul.iconsList li a {color:#555}
 
-ul.iconsList li a:hover, ul.iconsList i {color:#ea761e}
+ul.iconsList li a:hover, ul.iconsList i {color:#E95A26}
 
 /*** buttons ***/
 .btn {
@@ -175,7 +175,7 @@ ul.iconsList li a:hover, ul.iconsList i {color:#ea761e}
 }
 
 .btn-primary {
-	background: #ea761e ;
+	background: #E95A26 ;
 	border-bottom-color:#cd691b;
 	color: #FFFFFF!important;
 }
@@ -236,20 +236,20 @@ ul.quickMenu li a:hover {color:#555;}
 .navbar-nav > li > a > i, .navbar-default .navbar-nav > li > a {color:#aaa;}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, #resMainMenu li.active>a {
-	color:#ea761e;
+	color:#E95A26;
 }
 
 .navbar-nav > li.sep:before{color:#eee;}
 
 .navbar-default .navbar-nav > li > a.active {
 	color:#fff;
-	background:#ea761e;
+	background:#E95A26;
 	border-bottom: 4px solid #cd691b
 }
 
 .navbar-nav ul li a {color:#999;}
 
-.navbar-nav li.hover>a {color:#ea761e;}
+.navbar-nav li.hover>a {color:#E95A26;}
 
 /*** mega menu ***/
 .nekoMegaMenu {background:#fff;}
@@ -314,7 +314,7 @@ footer h1,footer h2,footer h3,footer h4{
 
 #home h1,#home h2,#home p, #noSliderWrapper h1, #noSliderWrapper h2, #noSliderWrapper p {color:#FFFFFF;}
 
-#noSliderWrapper{background-color:#ea761e }
+#noSliderWrapper{background-color:#E95A26 }
 
 
 /* END HOME
@@ -332,11 +332,11 @@ footer h1,footer h2,footer h3,footer h4{
 
 ul.breadcrumb li a {color:#555;}
 
-ul.breadcrumb li a:hover {color:#ea761e;}
+ul.breadcrumb li a:hover {color:#E95A26;}
 
 ul.breadcrumb li a:after{color:#ddd;}
 
-ul.breadcrumb li.active {color:#ea761e;}
+ul.breadcrumb li.active {color:#E95A26;}
 
 /** sidebar **/
 
@@ -346,8 +346,8 @@ nav#subnav ul li a {
 }
 
 nav#subnav ul li a.active, nav#subnav ul li a:hover{
-	border-bottom-color:#ea761e;
-	color:#ea761e;
+	border-bottom-color:#E95A26;
+	color:#E95A26;
 } 
 
 /* END PAGES
@@ -363,14 +363,14 @@ nav#subnav ul li a.active, nav#subnav ul li a:hover{
 }
 
 #nextslide, #prevslide {
-	background: #ea761e;
+	background: #E95A26;
 	border-bottom: 4px solid #cd691b;
 	color: #FFFFFF;
 }
 /*** FLEX ***/
 
 .flexslider .flex-direction-nav a {
-background: #ea761e;
+background: #E95A26;
 border-bottom: 4px solid #cd691b;
 }
 
@@ -380,9 +380,9 @@ border-bottom: 4px solid #cd691b;
 	height:12px
 }
 
-.flexslider .flex-control-paging li a.flex-active {background:#ea761e;}
+.flexslider .flex-control-paging li a.flex-active {background:#E95A26;}
 
-.flexslider .flex-control-paging li a:hover {background:#ea761e;}
+.flexslider .flex-control-paging li a:hover {background:#E95A26;}
 
 .flexslider .flex-control-paging li a {background: #d88050; border: none;}
 
@@ -391,7 +391,7 @@ border-bottom: 4px solid #cd691b;
 .flexslider h1 {
     color: #FFFFFF;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
-    background:#ea761e;
+    background:#E95A26;
 }
 
 .flexslider h2 {
@@ -416,8 +416,8 @@ border-bottom: 4px solid #cd691b;
 
 .owl-theme .owl-controls .owl-buttons div:hover{
 	background:#fff;
-	border:1px solid #ea761e;
-	color:#ea761e;
+	border:1px solid #E95A26;
+	color:#E95A26;
 }
 
 .owl-theme .owl-controls .owl-page span {background:#d88050;}
@@ -448,7 +448,7 @@ border-bottom: 4px solid #cd691b;
 
 .post h2 a{color:#555;}
 
-.post h2 a:hover{color:#ea761e ;}
+.post h2 a:hover{color:#E95A26 ;}
 
 .tagCloud a:link, .tagCloud a:visited {
 	background-color: #fff;
@@ -457,7 +457,7 @@ border-bottom: 4px solid #cd691b;
 }
 
 .tagcloud a:hover {
-	background-color: #ea761e ;
+	background-color: #E95A26 ;
 	color: #FFF;
 }
 
@@ -465,16 +465,16 @@ p.credits {
 	color:#555;
 	background:#eee;
 }
-p.credits a {color:#ea761e ;}
+p.credits a {color:#E95A26 ;}
 
 .widget {border-bottom: 1px dashed #eee}
 
 .search .btn{border: 1px solid #DDD;}
-.search .btn:hover{border-color:#ea761e;}
+.search .btn:hover{border-color:#E95A26;}
 
 ul.entry-meta li a{background:#eee;}
 ul.entry-meta li a:hover{
-	background:#ea761e;
+	background:#E95A26;
 	color:#fff;
 }
 
@@ -486,9 +486,9 @@ ul.entry-meta li a:hover{
 
 
 nav#filter a:hover, nav#filter a.current {
-	background-color: #ea761e ;
+	background-color: #E95A26 ;
 	color:#fff;
-	border-color:#ea761e;
+	border-color:#E95A26;
 }
 
 li.filterTitle {color:#4F6266;}
@@ -522,7 +522,7 @@ section#projectDescription {background-color:#F8F8F8;}
 ================================================== */
 /* Preloader one page */
 #preloader {
-	background-color:#ea761e; /* change if the mask should have another color then white */	
+	background-color:#E95A26; /* change if the mask should have another color then white */	
 }
 
 #status {
@@ -532,24 +532,24 @@ section#projectDescription {background-color:#F8F8F8;}
 
 /** focus color ***/
 ::-moz-selection {
-	background: #ea761e;
+	background: #E95A26;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::selection {
-	background: #ea761e;
+	background: #E95A26;
 	color: #fff;
 	text-shadow: none;
 }
 
 /*** hover images ***/
-.mask {background:#ea761e;}
+.mask {background:#E95A26;}
 
 .iconLinks a i{color:#fff;}
 .iconLinks a i.iconRounded {border-color: #fff;}
 .iconLinks a span {color:#fff;}
-.iconLinks a:hover i.iconRounded {border-color: #ea761e;}
+.iconLinks a:hover i.iconRounded {border-color: #E95A26;}
 
 /*** pricing table ***/
 .pricingBloc {
@@ -587,18 +587,18 @@ section#projectDescription {background-color:#F8F8F8;}
 }
 
 .pricingBloc.focusPlan h2{
-	color:#ea761e!important;
+	color:#E95A26!important;
 	border-bottom:none;
 }
 
 .pricingBloc.focusPlan h3 {
-	background-color:#ea761e ;
+	background-color:#E95A26 ;
 	color:#fff!important;
 }
 
 /*** Form ***/
 .form-control:focus{
-	border: 1px solid #ea761e;
+	border: 1px solid #E95A26;
 	background-color:#fff;
 	box-shadow:none;
 	-webkit-box-shadow:none;
@@ -629,7 +629,7 @@ label.error {
 }
 
 /* pop up */
-.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {color:#ea761e;}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {color:#E95A26;}
 
 /* END MISCELANIOUS
 ================================================== */
@@ -648,11 +648,11 @@ label.error {
 }
 
 .boxContent h2, .boxContent h3 {
-	color:#ea761e;
+	color:#E95A26;
 }
 /*** Feature box **/
 
-.featureBox i{color:#ea761e;} 
+.featureBox i{color:#E95A26;} 
 .featureBox .boxContent{background:none;}  
 
 /*** Focus box **/
@@ -711,7 +711,7 @@ label.error {
 
 /*color2*/
 .color2, .slice.color2, .bulle.color2, .ctaBox.color2{
-	background-color:#ea761e ;
+	background-color:#E95A26 ;
 	color:#fff;
 }
 
@@ -734,36 +734,36 @@ label.error {
 .color2 h1:before,.color2 h1:after{color:#cd691b;}
 
 .color2 .boxContent h2, .color2 .boxContent h3, .color2 .boxContent a {
-	color:#ea761e;
+	color:#E95A26;
 }
 
 .color2 .owl-theme .owl-controls .owl-page span {
 	background: #fff;
-	color:#ea761e;
+	color:#E95A26;
 }
  
 /*** icons ***/
 .iconRounded {
-	color:#ea761e;
-	border: 1px solid #ea761e;
+	color:#E95A26;
+	border: 1px solid #E95A26;
 }
 
 .iconRounded:hover, .color1 .iconRounded:hover,.iconLinks a:hover i, .boxIcon a:hover i{
-	background-color:#ea761e;
+	background-color:#E95A26;
 	color:#fff;
-	border-color: #ea761e;
+	border-color: #E95A26;
 }
 
 .color2 .iconRounded {
-	background-color:#ea761e;
+	background-color:#E95A26;
 	color:#fff;
 	border: 1px solid #fff;
 }
 
 .color2 .iconRounded:hover,.color2 .boxIcon a:hover i {
 	background-color:#fff;
-	color:#ea761e;
-	border: 2px solid #ea761e;
+	color:#E95A26;
+	border: 2px solid #E95A26;
 }
 
 /* END NEKO CSS FRAMEWORK
